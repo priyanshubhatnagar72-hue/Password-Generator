@@ -10,5 +10,5 @@ n_symbols=int(input("How many symbols you want in your password?\n"))
 password=""
 for i in range(1,n_letters+1):
         char=random.choice(letters)
-        password=password+char
+        password+=char
 print(password)
