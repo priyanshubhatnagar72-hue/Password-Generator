@@ -13,3 +13,12 @@ A simple and effective Python-based tool to generate secure, randomized password
 2. **Collection:** The script selects random characters from pre-defined lists.
 3. **Shuffling:** The script uses `random.shuffle()` to ensure the password doesn't follow a predictable pattern (e.g., all letters first, then numbers).
 4. **Output:** A secure string is printed to the console.
+
+## 📋 Prerequisites
+- Python 3.x
+
+## 💻 Usage
+Run the script using your terminal or IDE:
+
+```bash
+python password_generator.py
